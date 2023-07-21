@@ -1,0 +1,54 @@
+body {
+  margin: 0px;
+}
+/* body Header Section */
+#body-header {
+  height: 65vh;
+  background-image: url(https://ninjasfiles.s3.amazonaws.com/asset_0000000000000020_1549743985_macbook_mouse.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  opacity: 0.8;
+}
+
+/* Horizontal Section */
+.horizontal-list {
+  text-align: center;
+  list-style: none;
+  padding-left: 0px;
+}
+.horizontal-list li {
+  margin: 0px 10px;
+  display: inline-block;
+}
+.horizontal-list li a {
+  text-decoration: none;
+  color: white;
+  transition: color 0.5s, border-bottom 0.5s;
+}
+.horizontal-list li a:hover {
+  color: lightgray;
+  border-bottom: 2px solid lightgray;
+}
+/* Name-Heading */
+#name-heading {
+  font-size: 60px;
+  color: white;
+  text-align: center;
+  margin-top: 28vh;
+}
+/* Social-Icons */
+#Social-icons {
+  list-style: none;
+  padding: 0px;
+  text-align: center;
+  margin-top: -35px;
+}
+#Social-icons li {
+  display: inline-block;
+  margin: 0px 15px;
+}
+#Social-icons li a img {
+  height: 15px;
+  width: 15px;
+}
